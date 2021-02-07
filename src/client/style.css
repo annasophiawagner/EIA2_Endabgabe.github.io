@@ -1,0 +1,69 @@
+body {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: auto auto;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+div {
+    border: thin solid black;
+    margin: 1.5em;
+}
+
+header{
+    grid-column: span 2;
+    height: 2em;
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+}
+
+#submit {
+    margin-left: 1em;
+    margin-top: 1.5em;
+    height: 2em;
+    width: 10em;
+    background: grey;
+    color: white;
+}
+
+#searchRecipes {
+    height: 2em;
+    width: 10em;
+    background: grey;
+    color: white;
+}
+
+#loadRecipe {
+    height: 2em;
+    width: 10em;
+    background: grey;
+    color: white;
+}
+
+#database {
+    border: none;
+}
+
+#huepreview {
+    position: relative;
+    display: inline;
+    margin: 0;
+    border: none;
+}
+
+#canvas {
+    margin-top: 1.5em;
+    background-color: #000;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 27px;
+    grid-template-areas:
+    ". .";
+}
