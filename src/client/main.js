@@ -176,7 +176,7 @@ var Firework;
         //Parameter type auf put setzen, da Servercode dann die Konfiguration in mongodb abspeichert (Siehe server.ts)
         query.append("type", "put");
         //HTTP Anfrage ausführen an Server
-        fetch("https://REPLACE_HEROKUURL.herokuapp.com/?" + query.toString());
+        fetch("https://eia2-abgabe.herokuapp.com/?" + query.toString());
     });
     //Searchbutton lädt alle gespeicherten Konfigurationen vom Server
     searchFireworkButton.addEventListener("click", async () => {
@@ -184,7 +184,7 @@ var Firework;
         // type auf get setzen, damit Server alle Feuerwerke zurück gibt (siehe server.ts)
         query.append("type", "get");
         //absenden der abfrage
-        const response = await fetch("https://REPLACE_HEROKUURL.herokuapp.com/?" + query.toString());
+        const response = await fetch("https://eia2-abgabe.herokuapp.com/?" + query.toString());
         //umwandeln der zurückbekommenen daten in ein json-Objekt
         const data = await response.json();
         //Dropdown der verfügbaren Feuerwerke leeren

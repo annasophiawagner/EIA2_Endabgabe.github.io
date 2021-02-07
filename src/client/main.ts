@@ -232,7 +232,7 @@ namespace Firework {
     query.append("type", "put");
 
     //HTTP Anfrage ausführen an Server
-    fetch("https://REPLACE_HEROKUURL.herokuapp.com/?" + query.toString());
+    fetch("https://eia2-abgabe.herokuapp.com/?" + query.toString());
   });
 
   //Searchbutton lädt alle gespeicherten Konfigurationen vom Server
@@ -242,7 +242,7 @@ namespace Firework {
     query.append("type", "get");
 
     //absenden der abfrage
-    const response: Response = await fetch("https://REPLACE_HEROKUURL.herokuapp.com/?" + query.toString());
+    const response: Response = await fetch("https://eia2-abgabe.herokuapp.com/?" + query.toString());
 
     //umwandeln der zurückbekommenen daten in ein json-Objekt
     const data: FireworkConfig[] = await response.json();
