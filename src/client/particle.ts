@@ -44,7 +44,7 @@ namespace Firework {
       ctx.restore();
     }
 
-    //Update funktion Zeichnet ein Partikel und updated die Parameter
+    //Update Funktion zeichnet ein Partikel und updated die Parameter
     public update(): void {
       //Zeichnet den Partikel
       this.draw();
