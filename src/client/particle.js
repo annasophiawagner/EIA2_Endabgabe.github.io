@@ -31,7 +31,7 @@ var Firework;
             //Status wiederherstellen (globalAlpha wird wieder zurückgesetzt)
             Firework.ctx.restore();
         }
-        //Update funktion Zeichnet ein Partikel und updated die Parameter
+        //Update Funktion zeichnet ein Partikel und updated die Parameter
         update() {
             //Zeichnet den Partikel
             this.draw();
