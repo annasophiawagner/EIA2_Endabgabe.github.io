@@ -1,8 +1,8 @@
-## ENDABGABE EIA2, WiSe 2020/2021
+# ENDABGABE EIA2, WiSe 2020/2021
 
-<hr>
 
-# "Firework"
+
+### "Firework"
 
 Name: Anna Sophia Wagner
 Matrikelnummer: 263640
