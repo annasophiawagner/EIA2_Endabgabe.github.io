@@ -97,8 +97,8 @@ namespace Firework {
     huePreview.style.backgroundColor = `hsl(${hueInput.value}, 100%, 50%)`;
   });
 
-  function deleteHue(toDeleleIndex: number): void {
-    fireworkSettings.hues = fireworkSettings.hues.filter((_value, index) => index != toDeleleIndex);
+  function deleteHue(toDeleteIndex: number): void {
+    fireworkSettings.hues = fireworkSettings.hues.filter((_value, index) => index != toDeleteIndex);
     displayHues();
   }
 
